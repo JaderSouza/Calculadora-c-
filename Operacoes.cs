@@ -9,25 +9,23 @@ namespace Projeto_Calculadora
     {
         public double num1;
         public double num2;
-        public double total;
 
-        public string adicao(double num1, double num2) 
+        public string adicao() 
         {
-            
             double total = num1 + num2;
             return "O resultado da operação soma é: " + total;
         }
-        public string subtracao(double num1, double num2)
+        public string subtracao()
         {
             double total = num1 - num2;
             return "O resultado da operação de subtração é: " + total;
         }
-        public string multiplicacao(double num1, double num2)
+        public string multiplicacao()
         {
             double total = num1 * num2;
             return "O resultado da operação de multiplicação é: " + total;
         }
-        public string Divisao(double num1, double num2)
+        public string Divisao()
         {
             if (num1 > num2)
             {
@@ -36,7 +34,7 @@ namespace Projeto_Calculadora
             }
             else 
             {
-                Console.WriteLine("Não é possível efetuar divisões por 0");
+                return "Não é possível efetuar divisões por 0";
             }
         }
     }
