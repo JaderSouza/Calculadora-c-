@@ -7,29 +7,29 @@ namespace Projeto_Calculadora
 {
     public class Operacoes
     {
-        public double num1;
-        public double num2;
+        public double Num1;
+        public double Num2;
 
-        public string adicao() 
+        public string Adicao() 
         {
-            double total = num1 + num2;
+            double total = Num1 + Num2;
             return "O resultado da operação soma é: " + total;
         }
-        public string subtracao()
+        public string Subtracao()
         {
-            double total = num1 - num2;
+            double total = Num1 - Num2;
             return "O resultado da operação de subtração é: " + total;
         }
-        public string multiplicacao()
+        public string Multiplicacao()
         {
-            double total = num1 * num2;
+            double total = Num1 * Num2;
             return "O resultado da operação de multiplicação é: " + total;
         }
         public string Divisao()
         {
-            if (num1 > num2)
+            if (Num2 != 0)
             {
-                double total = num1 / num2;
+                double total = Num1 / Num2;
                 return "O resultado da operação de divisão é: " + total; ;
             }
             else 

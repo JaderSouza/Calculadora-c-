@@ -13,32 +13,14 @@ namespace Projeto_calculadora
         }
         static void LogicaCalculadora()
         {
-            //Operacoes Ops = new Operacoes();
             Operacoes op = new Operacoes();
-            //Operacoes n1 = new Operacoes();
-            //Operacoes n2 = new Operacoes();
-            /* try
-             {
-                 Console.Write("Digite o primeiro número");
-                 op.num1 = double.Parse(Console.ReadLine());
-                 Console.WriteLine();
-
-
-                 Console.Write("Digite + para somar, - para subitrair, * para multiplicar e / para dividir e para sair e fechar a calculadora digite 0");
-                 string operacao = Console.ReadLine();
-
-
-                 Console.Write("Digite o segundo número");
-                 op.num2 = double.Parse(Console.ReadLine());*/
-
-
 
             while (true)
             {
                 try
                 {
                     Console.Write("Digite o primeiro número: ");
-                    op.num1 = double.Parse(Console.ReadLine());
+                    op.Num1 = double.Parse(Console.ReadLine());
                     Console.WriteLine();
 
 
@@ -52,21 +34,21 @@ namespace Projeto_calculadora
 
 
                     Console.Write("Digite o segundo número: ");
-                    op.num2 = double.Parse(Console.ReadLine());
+                    op.Num2 = double.Parse(Console.ReadLine());
 
                     {
 
                         if (operacao == "+")
                         {
-                            Console.WriteLine(op.adicao());
+                            Console.WriteLine(op.Adicao());
                         }
                         else if (operacao == "-")
                         {
-                            Console.WriteLine(op.subtracao());
+                            Console.WriteLine(op.Subtracao());
                         }
                         else if (operacao == "*")
                         {
-                            Console.WriteLine(op.multiplicacao());
+                            Console.WriteLine(op.Multiplicacao());
                         }
                         else if (operacao == "/")
                         {
@@ -74,7 +56,7 @@ namespace Projeto_calculadora
                         }
                         else
                         {
-                            Console.WriteLine("Opção incorreta! Digite uma opção válida");
+                            Console.WriteLine("Opção incorreta! Digite uma opção válida!");
                         }
 
                     }
@@ -84,14 +66,8 @@ namespace Projeto_calculadora
                 {
                     Console.WriteLine("Formato digitado incorreto!");
                 }
-                /*Console.Write("Digite o primeiro número");
-                op.num1 = double.Parse(Console.ReadLine());
-                Console.Write("Digite + para somar, - para subitrair, * para multiplicar e / para dividir e para sair e fechar a calculadora digite 0");
-                operacao = Console.ReadLine();
-                Console.Write("Digite o segundo número");
-                op.num2 = double.Parse(Console.ReadLine());*/
-            }
 
+            }
         }
     }
 }

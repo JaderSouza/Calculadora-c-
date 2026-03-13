@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Suporte\\Desktop\\teste\\Projeto_Calculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC3F8FF7-6D4D-7C39-0FCE-5693EF7280C8}|Projeto_Calculadora.csproj|c:\\users\\suporte\\desktop\\teste\\projeto_calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC3F8FF7-6D4D-7C39-0FCE-5693EF7280C8}|Projeto_Calculadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC3F8FF7-6D4D-7C39-0FCE-5693EF7280C8}|Projeto_Calculadora.csproj|c:\\users\\suporte\\desktop\\teste\\projeto_calculadora\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC3F8FF7-6D4D-7C39-0FCE-5693EF7280C8}|Projeto_Calculadora.csproj|solutionrelative:operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC3F8FF7-6D4D-7C39-0FCE-5693EF7280C8}|Projeto_Calculadora.csproj|c:\\users\\suporte\\desktop\\teste\\projeto_calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC3F8FF7-6D4D-7C39-0FCE-5693EF7280C8}|Projeto_Calculadora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Suporte\\Desktop\\teste\\Projeto_Calculadora\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Suporte\\Desktop\\teste\\Projeto_Calculadora\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowEMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T17:01:37.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Operacoes.cs",
               "DocumentMoniker": "C:\\Users\\Suporte\\Desktop\\teste\\Projeto_Calculadora\\Operacoes.cs",
               "RelativeDocumentMoniker": "Operacoes.cs",
               "ToolTip": "C:\\Users\\Suporte\\Desktop\\teste\\Projeto_Calculadora\\Operacoes.cs",
               "RelativeToolTip": "Operacoes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T17:05:14.948Z",
               "EditorCaption": ""
